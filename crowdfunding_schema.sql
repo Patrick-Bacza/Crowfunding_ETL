@@ -47,6 +47,7 @@ CREATE TABLE "campaign" (
     "subcategory_id" varchar  NOT NULL,
     CONSTRAINT "pk_campaign" PRIMARY KEY (
         "cf_id"),
+-- Set foreign keys to relate to each lookup table (category, subcategory , and contacts)
 	FOREIGN KEY (contact_id) REFERENCES contacts(contact_id),
 	FOREIGN KEY (category_id) REFERENCES category(category_id),
 	FOREIGN KEY (subcategory_id) REFERENCES subcategory(subcategory_id)
