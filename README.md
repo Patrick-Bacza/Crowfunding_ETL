@@ -30,5 +30,13 @@ The below is what is included in the repository:
       
 3) ETL-Mini_Project_consolidated.ipynb
 
-      A file where our individual work is consolidated
+      A file where our individual work is consolidated.
+      
+4) crowfunding_schema.sql
+      
+     File use to create database and tables.
+ 
+5) Output_screenshots
+      
+      Folder that has screenshots proving the data is in each correct table.
           
